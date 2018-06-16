@@ -1,0 +1,186 @@
+@charset "utf-8";
+.header  h1{
+
+    height: 2.9rem;  
+    padding-left: 1.25rem;
+    line-height:    2.9rem;
+    font-size: 1.25rem;    
+    color:#fff;
+    background-color: #FD6965;
+
+}
+.banner img{
+    width: 100%;
+    height:7.7rem;
+ }
+.nav li{
+
+    float: left;
+    width: 50%;
+    height: 1.725rem;
+   box-sizing:border-box;
+   line-height: 1.75rem;
+   text-align: center;
+   font-size: 0.55rem;
+}
+.nav .active{
+
+    border-bottom: 0.2rem #FD625E  solid;
+    color:#FD625E;
+}
+.main ol li{
+
+    width: 100%;
+  height: 6.6rem;
+    border-bottom: 1px solid #ccc;
+
+}
+.main ol li img{
+
+    width: 5.7rem;
+    height: 5.7rem;
+    float: left;
+    padding-left: 0.475rem;
+    padding-top: 0.475rem;
+    padding-right: 0.475rem;
+}
+
+ol li p{
+
+    font-size: 0.45rem;
+
+
+}
+.p1{
+
+    margin-top: 0.475rem;
+
+}
+.p1 span{
+
+    display: inline-block;
+    width: 1.6rem;
+    height: 0.625rem;
+    font-size: 0.45rem;
+    line-height: 0.45rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.3125rem;
+    background-color: #FD625E;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+ol li a{
+
+    color:#000;
+}
+.p2{
+
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #C4C4C4;
+}
+.p3{
+
+    font-size: 1.2rem;
+    color: #FD625E;
+}
+.main2 h5 {
+
+    width: 7.775rem;
+    height: 2.75rem;
+    background: url(../images/t1.png) left center no-repeat;
+    padding-left: 0.675rem;
+    margin-left: 0.75rem;
+    margin-top: 0.525rem;
+    line-height: 2.75rem;
+
+}
+.main2 h5 span {
+
+    display: inline-block;
+    width: 7.775rem;
+    height: 2.75rem;
+    margin-left:2.5rem;
+    font-size:1.3rem;
+}
+.main2 .p4{
+
+
+    padding: 1.0rem;
+}
+.main2 h6 {
+
+    width: 7.775rem;
+    height: 2.75rem;
+    background: url(../images/t1.png) left center no-repeat;
+    padding-left: 0.675rem;
+    margin-left: 0.75rem;
+    margin-top: 0.525rem;
+    line-height: 2.75rem;
+
+}
+.main2 h6 span {
+
+    display: inline-block;
+    width: 7.775rem;
+    height: 2.75rem;
+    margin-left:2.5rem;
+    font-size:1.3rem;
+}
+.main2 .box2 p{
+
+
+    padding: 1.0rem;
+}
+.main2 .box2 p span{
+
+    color:#FD625E;
+    margin-right: 0.375rem;
+}
+.footer {
+
+    width: 100%;
+    height: 2.3rem;
+    position: fixed;
+    left: 0; bottom: 0;
+    background: #fff;
+}
+.footer  .f1{
+
+    float: left;
+    width: 50%;
+
+}
+.footer  .f1 span{
+
+    display: inline-block;
+    text-align: center;
+
+}
+.footer  .f1 p{
+
+    font-size: 0.4rem
+}
+.footer  .f2{
+
+    float: right;
+    
+}
+.footer  .f2 span{
+
+    display: inline-block;
+    text-align: center;
+}
+.footer  .f2 p{
+
+    font-size: 0.4rem
+}
+.footer  a{
+
+    color:#000;
+}
+.footer .active1{
+
+    color:#FD625E;
+}

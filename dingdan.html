@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=1">
+    <meta name="apple-mobile-web-app-title" content="">
+     <link rel="apple-touch-icon-precomposed" href="timg.jpg">
+     <meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+    window.onload = window.onresize = function(){        
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        //找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+        //如果屏幕宽度大于640 
+        //就用 640/16=40
+        //小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        //最大网页尺寸640 
+        //最大字体（根字体大小） 40
+    }
+</script>
+<link rel="stylesheet" href="css/gonggong.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+       <div class="header">    
+                <h1>订单提交</h1>
+            </div>    
+            <div class="nav">
+                <a href="https://jd.claydai.cn/index/web/order.html">一键查询订单</a>
+            </div>
+            <div class="main">
+                <h5>温馨提示:为了保证您能收到平台补贴金，请务必
+确认支付宝账号与真实姓名填写正确
+</h5>
+                <p class="p1">
+                    <span>收款支付宝</span>
+                </p>
+                <form >
+                    
+                    <input type="text" placeholder="请输入真实名字" class="ipt1"><br>
+                    <input type="text" placeholder="请输入支付宝账号"  class="ipt2"><br>
+                </form>
+
+                <p class="p2">
+                    <span>联系手机号</span>
+                </p>
+                 <form >
+                    
+                    <input type="text" placeholder="请输入手机号" class="ipt3"><br>
+                   
+                </form>
+                 <a href="###" class="qd" >确定</a>>
+            </div>
+
+
+
+              <div class="footer">  
+
+                   <div class="f1"><a href="index.html" class=" active1" id="a1"> <span class="iconfont">&#xe653;</span>
+                    <p>免单产品</p></a></div>
+                    <div class="f2"><a href="dingdan.html" id="a2"><span  class="iconfont">&#xe603;</span>
+                    <p>订单提交</p></a></div>
+
+            </div>
+            <script>
+                    var oa1=document.getElementById('a1');
+                     var oa2=document.getElementById('a2');
+                       oa1.onclick=function(){
+
+                    this.className='active1';
+                    oa2.className='';
+                }
+                   oa1.onclick=function(){
+
+                    this.className='active1';
+                    oa1.className='';
+                }
+            </script>
+
+</body>
+</html>

@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=1">
+    <meta name="apple-mobile-web-app-title" content="">
+     <link rel="apple-touch-icon-precomposed" href="timg.jpg">
+     <meta name="apple-mobile-web-app-capable" content="yes">
+<script>
+    window.onload = window.onresize = function(){        
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+        //找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+        //如果屏幕宽度大于640 
+        //就用 640/16=40
+        //小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        //最大网页尺寸640 
+        //最大字体（根字体大小） 40
+    }
+</script>
+<link rel="stylesheet" href="css/gonggong.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="font/iconfont.css">
+</head>
+<body>
+            <div class="header">    
+                <h1>京东618</h1>
+            </div>
+            <div class="banner">
+                <img src="images/banner.png"  alt="">
+            </div>
+            <div class="nav">
+                <ul class="clearfix" >
+                    <li class="active" id='l1'>免单商品</li>
+                    <li id='l2'>免单规则</li>
+                </ul>
+            </div>
+            <div class="main" id='main'>
+                <ol>
+                    <li>
+                            <a href="https://union-click.jd.com/jdc?d=c0EGpo" class="clearfix">
+                                <img src="images/img1.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]意家居男女生日礼物情侣生活日用实用漱口杯 两只颜色随机</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=fb50Sz" class="clearfix">
+                                <img src="images/img2.png"  alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]正版家常菜菜谱书大全包邮 家用新手简单易学入门美食视频图解厨神的家常菜做菜</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=JG4IB9" class="clearfix">
+                                <img src="images/img3.png"  alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]正版家常菜菜谱书大全包邮 家用新手简单易学入门美食视频图解厨神的家常菜做菜</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=6tFkvF" class="clearfix">
+                                <img src="images/img004.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]SUIKONE 新款按压口红 女士口红 不易掉色 沾杯 防水唇彩咬唇妆润 01#樱花粉</p>
+                              <p class="p2"><s>原价￥29.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="//union-click.jd.com/jdc?d=nB0W4F" class="clearfix">
+                                <img src="images/img005.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]创意可爱水果叉月饼叉不锈钢挖果勺水果刀水果分割器易清洗家用餐具 五只水果叉</p>
+                              <p class="p2"><s>原价￥10.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=SUH8D1" class="clearfix">
+                                <img src="images/img006.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]6根装 皮套橡皮筋发圈韩国头绳简约黑色成人扎头发卡通发绳头饰女 款式随机</p>
+                              <p class="p2"><s>原价￥12.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=m00t6l" class="clearfix">
+                                <img src="images/img007.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]沃盼（WOPAN）海南小台芒新鲜水果芒果 精品果1斤装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=CNgT57" class="clearfix">
+                                <img src="images/img12.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]牙博士 正品炭白深洁牙刷备长竹炭白深洁牙刷软毛进口刷丝不伤牙龈家用 2支情侣装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=OLVdOh" class="clearfix">
+                                <img src="images/img2.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]妙爱（Miaoai） 2包装本色抽纸3层竹浆纸抽婴儿纸巾嘻哈小规格100抽</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=NZDffb" class="clearfix">
+                                <img src="images/img3.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]妙爱（Miaoai） 2包装本色抽纸3层竹浆纸抽婴儿纸规格100抽</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=Gytc1e" class="clearfix">
+                                <img src="images/img4.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]妙爱（Miaoai） 2包装本色抽纸3层竹浆纸抽婴儿纸规格100抽</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=secHTS" class="clearfix">
+                                <img src="images/img5.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]东阿国胶堂阿胶水晶枣100克独立小袋无核阿胶金丝枣</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=ZAS1Ol" class="clearfix">
+                                <img src="images/img6.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]保鲜袋居家日用 餐饮食品用 50只装 </p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=daUQGz" class="clearfix">
+                                <img src="images/img7.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]欢喜成家小姐姐植物精油扣 成人婴儿童纽扣驱蚊扣2个</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=83tZeB" class="clearfix">
+                                <img src="images/img8.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]CM朝美 一次性无纺布口罩 防尘安全防护儿童口罩 10只密封包装 XS码 适合3-7岁</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=lJqD6Z" class="clearfix">
+                                <img src="images/img9.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]CM朝美 医用无菌防护口罩 一次性防尘透气无纺布成人男女口罩 10只装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=fcWYsD" class="clearfix">
+                                <img src="images/img10.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]6根装 皮套橡皮筋发圈韩国头绳简约黑色成人扎头发卡通发绳头饰女 款式随机</p>
+                              <p class="p2"><s>原价￥12.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=DD7Lp3" class="clearfix">
+                                <img src="images/img11.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]沃盼（WOPAN）海南小台芒新鲜水果芒果 精品果1斤装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="：https://union-click.jd.com/jdc?d=DD7Lp3" class="clearfix">
+                                <img src="images/img12.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]牙博士 正品炭白深洁牙刷备长竹炭白深洁牙刷软毛进口刷丝不伤牙龈家用 2支情侣装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=SdQaWS" class="clearfix">
+                                <img src="images/img13.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]SUIKONE 新款按压口红 女士口红 不易掉色 沾杯 防水唇彩咬唇妆润 01#樱花粉</p>
+                              <p class="p2"><s>原价￥29.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=bipUwm" class="clearfix">
+                                <img src="images/img14.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]御福門 五常绿色大米东北生态大米 易煮易烂 传统耕作模式 包邮 米砖350g</p>
+                              <p class="p2"><s>原价￥45.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=V5YnsB" class="clearfix">
+                                <img src="images/img0015.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]亲亲 零食超市 450g桔子果冻</p>
+                              <p class="p2"><s>原价￥11.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=uvFNhB" class="clearfix">
+                                <img src="images/img15.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]彩色小鱼发光耳勺挖耳勺掏耳勺儿童宝宝婴儿成人抠耳勺 2个装</p>
+                              <p class="p2"><s>原价￥12.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=HnN2a6" class="clearfix">
+                                <img src="images/img16.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]带手柄浴缸刷浴室瓷砖刷厨房去污刷子洗锅魔力海绵擦清洁刷</p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=8kuXjp" class="clearfix">
+                                <img src="images/img17.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]洗澡沐浴球双色大号洗浴用品可爱搓澡球浴花洗浴球 颜色随机 单只</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=WUILaC" class="clearfix">
+                                <img src="images/img18.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]冬瓜荷叶茶玫瑰花陈皮决明子荷叶山楂花茶花果茶独立包装4*40包 160g/袋</p>
+                              <p class="p2"><s>原价￥29.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=XlIBwB" class="clearfix">
+                                <img src="images/img19.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]得利斯 玉米肠90g*1根 火腿肉肠即食</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=ifFgG3" class="clearfix">
+                                <img src="images/img20.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]欧凯斯（OKISS） 欧式防滑餐桌垫简约印花西餐垫 一个装颜色随机</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=RIRZE1" class="clearfix">
+                                <img src="images/img21.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]不锈钢餐具创意卡通儿童礼品餐具俩件套装筷子勺子2件套</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>  <li>
+                            <a href="https://union-click.jd.com/jdc?d=h9zxLX" class="clearfix">
+                                <img src="images/img22.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]NPP 苹果数据线iPhoneX/8/5cSE6s/7Plus手机充电器线多功能充电线面条线 蓝色 蓝色</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=kyrh6B" class="clearfix">
+                                <img src="images/img23.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]闪光发光旋转陀螺上链玩具七彩陀螺弹射带发射器学生奖品 七彩陀螺</p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=YpopQc" class="clearfix">
+                                <img src="images/img24.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]新颖创意三角指尖陀螺 迷你三叶便携式老人解压玩具陀螺 三叶陀螺</p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=PJAtZY" class="clearfix">
+                                <img src="images/img25.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]儿童拼图玩具幼儿卡通纸质拼图拼板宝宝玩具 卡通随机发货</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=x7Fnt2" class="clearfix">
+                                <img src="images/img26.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]金泰康 藏红花艾草原材料包泡脚老姜泡澡泡脚 四味原材料泡洗</p>
+                              <p class="p2"><s>原价￥35.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=kFl9yK" class="clearfix">
+                                <img src="images/img27.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]云南草本老北京正品艾草祛湿通络睡眠脚贴艾叶去除湿气足贴 云南草本足贴10贴</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=mSJDk0" class="clearfix">
+                                <img src="images/img28.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]一生美 舒目冷敷凝露眼药水15ml滴眼液一瓶</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=b3ZmOG" class="clearfix">
+                                <img src="images/img29.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促] 浓香型白酒 泸州醇窖 送礼泸州酒 参小仙42°100ml/瓶</p>
+                              <p class="p2"><s>原价￥35.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=4CXtyy" class="clearfix">
+                                <img src="images/img30.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]鲜人参 抚参堂泡酒白参煲汤参 真空独立礼品包装 15g/支</p>
+                              <p class="p2"><s>原价￥35.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>  <li>
+                            <a href="https://union-click.jd.com/jdc?d=wZgW5x" class="clearfix">
+                                <img src="images/img31.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]五常绿色大米东北生态大米 易煮易烂 传统耕作模式 包邮 米砖350g</p>
+                              <p class="p2"><s>原价￥45.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=D6WXgU" class="clearfix">
+                                <img src="images/img32.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]香木球块条替代樟脑丸衣柜防蛀虫卫生球除味驱虫防霉防蛀片防潮 4袋装共20粒</p>
+                              <p class="p2"><s>原价￥18.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=5cItrV" class="clearfix">
+                                <img src="images/img33.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]聆耵（LINGDING） 8个装 开橙器削橙子剥皮器剥水果橘子去皮器 创意开柚指环 </p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=l00TCj" class="clearfix">
+                                <img src="images/img35.png" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]5个装 可爱卡通苹果数据线保护套 手机充电器线专用保护头</p>
+                              <p class="p2"><s>原价￥13.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=YfMBkP   " class="clearfix">
+                                <img src="images/img36.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]发膜倒膜焗油膏护发素精油营养正品补水顺滑烫染受损修复干枯 </p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=vM4piV" class="clearfix">
+                                <img src="images/img37.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]发蓝泡泡洁厕灵洁厕宝厕所除臭马桶清洁剂洁厕块清香型洁厕剂10个</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=DdsWY2" class="clearfix">
+                                <img src="images/img38.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]双层肥皂盒塑料浴室树叶沥水肥皂架卫生间大号皂托香皂架香皂盒 单个</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=QRSCdj" class="clearfix">
+                                <img src="images/img39.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]玫瑰足浴盐浴足盐泡脚粉足浴粉除去死皮老茧</p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=V1qPaj" class="clearfix">
+                                <img src="images/img40.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]小麦秸秆便携竹炭软毛牙刷 北欧粉--2支装</p>
+                              <p class="p2"><s>原价￥11.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=J3Y6dZ" class="clearfix">
+                                <img src="images/img41.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]小白鞋神器二代洗鞋擦鞋神器去污洗白鞋清洗剂一擦就白喷雾</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=rqMJNg" class="clearfix">
+                                <img src="images/img42.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]牛奶香浴盐足浴盐浴足盐泡脚粉足浴粉去死皮去角质老茧 牛奶香浴盐</p>
+                              <p class="p2"><s>原价￥16.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=eT2ZEd" class="clearfix">
+                                <img src="images/img43.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]竹炭鞋垫 清新薄荷 清爽除臭2双装 </p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=eJlO5I" class="clearfix">
+                                <img src="images/img44.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]居居家 瓜果削皮刀不锈钢水果刀刨苹果削皮器去皮器剥土豆器刮皮刀 2只装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=RXR7Bs" class="clearfix">
+                                <img src="images/img45.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]宝克（BAOKE）子弹头中性笔 签字笔通用替芯 经济实用 880F笔 黑色3支装</p>
+                              <p class="p2"><s>原价￥13.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=qElwIe" class="clearfix">
+                                <img src="images/img46.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]纯粮原浆品鉴酒 贵州茅台镇高粱坤沙小酒 酱香型白酒53度 单瓶 125ml</p>
+                              <p class="p2"><s>原价￥19</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=ZaMmL7" class="clearfix">
+                                <img src="images/img0047.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]免打孔拖把架无痕浴室拖把粘钩挂架扫把架子拖把夹 灰色1个</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=IGAigE" class="clearfix">
+                                <img src="images/img0048.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]简约小麦秸秆菱形杯子 麦香健康水杯 情侣漱口杯刷牙杯 单只颜色随机</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=6hLsJi" class="clearfix">
+                                <img src="images/img0049.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]诗黛纷妮（SIDAFENi）多肽蜂胶焕颜蚕丝面膜水润修护淡化细纹滋润肌肤男女通用 30ml*5片</p>
+                              <p class="p2"><s>原价￥29.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=OB0nhF" class="clearfix">
+                                <img src="images/img0050..jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]诗黛纷妮（SIDAFENi）骨胶原弹滑透亮面膜持久保湿弹力紧致肌肤男女通用面膜贴 30ml*5片装</p>
+                              <p class="p2"><s>原价￥29.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=0YEENS" class="clearfix">
+                                <img src="images/img0051.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]梦思园（MENGSIYUAN） 细竹纤维不易掉毛洗碗布不易粘油 2片装(颜色随机)</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=1nJG7Z" class="clearfix">
+                                <img src="images/img0052.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]MOKO iPhone7/6s/8钢化膜苹果8 Plus全屏复盖6D抗蓝光防爆全玻璃手机膜</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=7TkQGB" class="clearfix">
+                                <img src="images/img0053jpg.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]MOKO 苹果X/10钢化膜6D全屏覆盖高清防蓝光防爆手机保护膜 适用于iPhone x 【黑色】高清款★真6D全玻璃一体膜</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=aHEpFN" class="clearfix">
+                                <img src="images/img0054.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]梦思园（MENGSIYUAN） 加棉纤维洗碗布厨房清洁抹布不易沾油吸水洗碗巾百洁布 2条装</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=ps7GiA" class="clearfix">
+                                <img src="images/img0056.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]家英 圆形磨刀器 创意家居生活用品剪刀棒剪子器快速双面菜刀磨刀石 三个装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=7WAPbi" class="clearfix">
+                                <img src="images/img0057.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]皮具皮革护理清洁湿巾擦鞋纸巾一次性去污上光擦鞋巾 1包10片装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=cxbEuN" class="clearfix">
+                                <img src="images/img0058.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]不锈钢水果叉水果签二齿叉蛋糕甜品小叉子 5个装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=3fNHof" class="clearfix">
+                                <img src="images/img0059.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]家英 擦手巾可挂式厨房卫生间纯色吸水速干擦手巾 珊瑚绒擦手布 擦拭毛巾</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=wMMUkQ" class="clearfix">
+                                <img src="images/img0060.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]创意冰箱自制冰棒冰格制作冰块冰模具食品级制冰袋一次性冰袋10片装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=qnoUSr" class="clearfix">
+                                <img src="images/img0061.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]降温防暑冰凉巾 消暑军训魔幻冰凉巾 冰爽冰巾冷感毛巾 80*30cm 买即赠方巾一条 颜色随机</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=MBdlhW" class="clearfix">
+                                <img src="images/img0062.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]家英 不锈钢清洁球钢丝球厨房用品 洗碗刷子钢丝球刷锅刷 6个装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=DkBTMG" class="clearfix">
+                                <img src="images/img0063.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]天然樟脑丸 防霉防蛀防虫丸 香樟木块樟脑球卫生球衣柜驱虫丸 5包装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=MqMKqp" class="clearfix">
+                                <img src="images/img0064.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]双层沥水香皂盒 树叶型塑料香皂托浴室肥皂置物盒 迷你绿</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=DGRv8R" class="clearfix">
+                                <img src="images/img0065.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]多功能陶瓷削皮刀刨皮刀 厨房刮皮刀蔬菜水果削皮器 两个装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=7Ap2jR" class="clearfix">
+                                <img src="images/img0066.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]创意包饺子器 手动捏饺子夹神器 包水饺模具 混色三个装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                  
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=UFOksF" class="clearfix">
+                                <img src="images/img0067.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]颜集卉 多个品种垂吊矮牵牛花种子太阳花百日草四季种开花不断秋季秋播阳台庭院</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=InRtJ5" class="clearfix">
+                                <img src="images/img0068.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]颜集卉 C蔬菜种子四季播阳台种菜庭院秋冬萝卜 蔬菜种子随机10袋</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>  <li>
+                            <a href="https://union-click.jd.com/jdc?d=19z2Li" class="clearfix">
+                                <img src="images/img0069.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]【30粒已开口碗莲套装】水培植物水培睡莲荷花睡莲花种碗莲种子盆栽水培绿植花</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=qXPNEJ" class="clearfix">
+                                <img src="images/img70.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]健格强力粘胶挂钩厨房钩子浴室卫生间门后吸盘无痕不粘贴壁挂承重粘钩 随机特惠</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>  <li>
+                            <a href="https://union-click.jd.com/jdc?d=vTFb8s" class="clearfix">
+                                <img src="images/img47.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]注水冰袋保鲜冷藏降温冰敷冰包食品海鲜加厚400毫升保冷袋 冰袋6个装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=mbHCeZ" class="clearfix">
+                                <img src="images/img48.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]一次性罐装牙签便携创意简约桶装牙签 2罐装（约150支/罐）</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=YaUKaW" class="clearfix">
+                                <img src="images/img49.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]小麦秸秆蛋清分离器 鸡蛋黄蛋液滤 蛋器厨房小工具 颜色随机2个装</p>
+                              <p class="p2"><s>原价￥15.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=ZMu2Yq" class="clearfix">
+                                <img src="images/img50.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]韩版发饰头饰品抓夹大码韩版亚克力洗澡大中号发夹发抓马尾夹女</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=Gtx81w" class="clearfix">
+                                <img src="images/img51.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]韩版发饰发卡韩国珍珠布艺发箍日韩版简约宽边洗脸百搭头箍发带头饰品</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=6N04xs" class="clearfix">
+                                <img src="images/img52.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]韩元素（HANYUANSU） 褶皱布艺发箍宽边发箍发饰韩国布艺防滑发卡发箍女头饰蕾丝头箍</p>
+                              <p class="p2"><s>原价￥12.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                      <li>
+                            <a href="https://union-click.jd.com/jdc?d=g5lFzq" class="clearfix">
+                                <img src="images/img53.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]韩版新款简约时尚布艺蕾丝发箍头饰 经典花朵发饰宽边百搭头箍</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                            <li>
+                            <a href="https://union-click.jd.com/jdc?d=eV3ghg" class="clearfix">
+                                <img src="images/img54.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]自行车魔术头巾面巾夏户外男女防晒面罩脖套嘻哈骑行装备围脖 五彩色 24*48CM左右</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=WZbClT" class="clearfix">
+                                <img src="images/img54.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]如诺 成人竹炭牙刷软毛细毛不易掉毛牙刷浴室用品 2支装(颜色随机)</p>
+                              <p class="p2"><s>原价￥19.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=6fBln2" class="clearfix">
+                                <img src="images/img55.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]梦思园（MENGSIYUAN） 一次性手套食品餐饮薄膜透明加厚塑料PVC龙虾100只装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=TxYnjn" class="clearfix">
+                                <img src="images/img56.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]时尚潮流PU多卡位卡套卡包 女士礼品卡包男女式卡包零钱包</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=mhNOa9" class="clearfix">
+                                <img src="images/img57.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]卡通厨房半身围裙 PVC防水防污围裙 可爱防油无袖围裙 随机</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=g5lFzq" class="clearfix">
+                                <img src="images/img58.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]韩版新款简约时尚布艺蕾丝发箍头饰 经典花朵发饰宽边百搭头箍</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=qJug9W" class="clearfix">
+                                <img src="images/img59.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]户外旅行旅游折叠衣架 多功能可折叠 旅行衣架3个超值套装 折叠衣架3个装</p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li>
+
+                        <li>
+                            <a href="https://union-click.jd.com/jdc?d=hjoXQD" class="clearfix">
+                                <img src="images/img60.jpg" alt="">   
+                           
+                                <p class="p1"><span>京东</span>[京东618大促]2个装创意糖果色时尚果盘 树叶形塑料水果盘 凉菜碟子 </p>
+                              <p class="p2"><s>原价￥14.9</s></p>
+                                <p class="p3">活动价￥9.9</p>
+                         </a>         
+                    </li> 
+                </ol>
+            </div>
+            <div class="main2" id='main2'>
+                
+                    <h5><span>活动时间</span></h5>
+                    <p class="p4">2018年6月16日0:00:00-2018年6月18日
+23:59:59
+</p>    
+<div class="box2">
+                    <h6><span>活动内容</span></h5>
+                        <p> <span>1</span>同一个京东账户每天限购10单，三天一-共不
+超过20单;
+</p>
+                        <p><span>2</span>免单商品全部为拼购+优惠券的模式，券后
+价格全部为9.9元。用户下单付款金额必须
+为9.9元，低于9.9元的不予免单，付款金额
+超过9.9元的，只免单9.9元;
+</p>
+                        <p><span>3</span>超过9.9元的，只免单9.9元;
+本次免单活动全部为拼团商品，时间到了会
+有成功提示。还请大家不用担心。
+</p>
+                        <p><span>4</span>免单活动期间，一次购物算一次免单，所以
+请单个商品独立提交订单付款，多个商品加
+入购物车只能算一个订单。</p>
+                        <p><span>5</span>无效订单说明:</p>
+                        <p><span>6</span>同一个京东账户，当天超过10单的，视
+为无效订单。
+</p>
+                        <p><span>7</span>账户类型为企业用户下单的，视为无效
+订单。
+</p>
+                        <p><span>8</span>账户类型为乡村推广员及其乡村推广员
+发展的用户，所产生的订单，为无效订单。</p>
+                        <p><span>9</span>单笔订单金额低于9.9元的，视为无效订
+单。
+</p>
+                        <p><span>10</span>订单支付时，使用了:礼品卡、E卡、京
+豆、京东账户余额的，视为无效订单。</p>
+                        <p><span>11</span>下单时要求开具增值税发票的，视为无
+效订单。</p>
+                        <p><span>12</span>付款、退款、退货订单，视为无效订
+单。</p>
+                        <p><span>13</span>订单产生投诉等交易纠纷等情况，视为
+无效订单.</p>
+</div>
+            </div>
+
+
+            <div class="footer">  
+
+                   <div class="f1"><a href="index.html" class=" active1" id="a1"> <span class="iconfont">&#xe653;</span>
+                    <p>免单产品</p></a></div>
+                    <div class="f2"><a href="dingdan.html" id="a2"><span  class="iconfont">&#xe603;</span>
+                    <p>订单提交</p></a></div>
+
+            </div>
+
+
+
+
+            <script>
+                var ol1=document.getElementById('l1');
+                var ol2=document.getElementById('l2');
+                 var oa1=document.getElementById('a1');
+                var oa2=document.getElementById('a2');
+                var omain=document.getElementById('main');
+                 var omain2=document.getElementById('main2');
+                ol1.onclick=function(){
+
+                    this.className='active';
+                    ol2 .className='';
+                    omain.style.display='block';
+                       omain2.style.display='none';
+
+                }
+                ol2.onclick=function(){
+
+                   this. className='active';
+                   ol1. className='';
+                    omain.style.display='none';
+                       omain2.style.display='block';
+                }
+                oa1.onclick=function(){
+
+                    this.className='active1';
+                    oa2.className='';
+                }
+                   oa1.onclick=function(){
+
+                    this.className='active1';
+                    oa1.className='';
+                }
+            </script>
+</body>
+</html>
